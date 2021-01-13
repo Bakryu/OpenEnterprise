@@ -1,0 +1,73 @@
+.hero {
+  position: relative;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 40px 10px 0;
+}
+
+.header-logo__wrapper,
+.header-items__wrapper {
+  display: flex;
+  align-items: center;
+}
+.header-logo__label {
+  font-family: $futura-round-font;
+  padding-left: 8px;
+  color: $black-color;
+  font-weight: 700;
+  font-size: 32px;
+  white-space: nowrap;
+}
+.header-items__wrapper {
+  .header-item:not(:last-child) {
+    margin-right: 40px;
+  }
+  .header-item {
+    font-family: $rubik-font;
+    font-weight: 600;
+    font-size: 20px;
+    color: $black-color;
+    white-space: nowrap;
+  }
+  .header-item:hover {
+    color: $green-color;
+  }
+}
+.hero-body {
+  margin: 0 10px;
+}
+
+.hero-image__wrapper {
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: -1;
+}
+.hero-content__wrapper {
+  display: flex;
+  flex-direction: column;
+  max-width: 608px;
+  margin-top: 191px;
+}
+.hero-content__description {
+  font-family: $futura-round-font;
+  color: $gray-color;
+  font-size: 24px;
+  line-height: 32px;
+  letter-spacing: -0.02em;
+  margin: 24px 0 40px;
+}
+
+.hero-content__button {
+  width: 219px;
+  height: 64px;
+  border-radius: 8px;
+  background-color: $green-color;
+  color: #fff;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 24px;
+  font-family: $futura-round-font;
+}

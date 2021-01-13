@@ -1,0 +1,13 @@
+@import "./variables";
+
+.section__wrapper {
+  padding: 0 calc(50%-654px);
+}
+h1 {
+  font-family: $potta-one-font;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 48px;
+  line-height: 64px;
+  letter-spacing: 0.06em;
+}
