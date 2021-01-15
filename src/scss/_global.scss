@@ -1,4 +1,7 @@
 @import "./variables";
+body {
+  background-color: $primary-bg-color;
+}
 
 h1 {
   font-family: $potta-one-font;
@@ -7,6 +10,14 @@ h1 {
   font-size: 69px;
   line-height: 80px;
   letter-spacing: 0.016em;
+}
+h2 {
+  font-family: $potta-one-font;
+  font-size: 48px;
+  line-height: 64px;
+  text-align: center;
+  letter-spacing: 0.055em;
+  margin: 0 10px;
 }
 .section__wrapper {
   padding: 0 calc(50%-674px);
@@ -30,7 +41,19 @@ h1 {
   }
 }
 @media screen and (max-width: 425px) {
-  h1 {
-    font-size: 30px;
+  h1,
+  h2 {
+    font-size: 36px;
+    line-height: 40px;
   }
+}
+
+.span-style-1 {
+  font-style: normal;
+  font-weight: normal;
+  font-family: $futura-round-font;
+  font-size: 18px;
+  line-height: 26px;
+  color: $black-color;
+  letter-spacing: -0.025em;
 }

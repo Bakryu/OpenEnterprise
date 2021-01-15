@@ -25,7 +25,7 @@
 
 .header-item {
   font-family: $rubik-font;
-  font-weight: 600;
+  font-weight: 500;
   font-size: 20px;
   letter-spacing: -0.04em;
   color: $black-color;
@@ -61,7 +61,6 @@
 
 @media screen and (max-width: 1200px) {
   .hero-image__wrapper {
-    max-width: 770px;
     img {
       width: 100%;
       background-size: cover;
@@ -102,9 +101,7 @@
   .menu-burger {
     display: none;
   }
-  .hero-content__wrapper {
-    max-width: 508px;
-  }
+ 
 }
 @media screen and (min-width: 425px) {
   .hero-content__wrapper {
