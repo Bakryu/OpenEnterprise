@@ -1,0 +1,66 @@
+.capabilities {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  padding-top: 160px;
+  letter-spacing: -0.02em;
+}
+.capabilities-item-card {
+  margin-left: 120px;
+}
+.capabilities-item {
+  display: flex;
+}
+.capabilities-item-content {
+  margin-top: 33px;
+  display: flex;
+  flex-direction: column;
+  width: 664px;
+}
+.capabilities-content-title {
+  text-align: start;
+  margin: 24px 0;
+}
+.capabilities-big-card {
+  padding: 32px 38px;
+  width: 484px;
+  border: 4px solid #303031;
+  border-radius: 16px;
+  display: flex;
+  flex-direction: column;
+}
+.big-card-title {
+  font-family: $potta-one-font;
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 40px;
+  margin-bottom: 28px;
+}
+.big-card-person {
+  display: flex;
+  align-items: center;
+}
+.big-card-person:not(:last-child) {
+  margin-bottom: 22px;
+}
+.card-person-image-big {
+  width: 72px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+.card-person-description-big {
+  display: flex;
+  flex-direction: column;
+  margin-left: 16px;
+  .person-name {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 26px;
+  }
+  .person-shares {
+    color: $gray-color;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+  }
+}
