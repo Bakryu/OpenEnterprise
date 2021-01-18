@@ -6,45 +6,56 @@
   letter-spacing: -0.02em;
 }
 .capabilities-item-card {
-  margin-left: 120px;
+  margin-left: 122px;
 }
 .capabilities-item {
+  margin-bottom: 160px;
   display: flex;
+  padding: 0 10px;
+}
+.capabilities-item-second {
+  margin-top: 11px;
 }
 .capabilities-item-content {
   margin-top: 33px;
   display: flex;
   flex-direction: column;
-  width: 664px;
+  width: 642px;
 }
 .capabilities-content-title {
   text-align: start;
-  margin: 24px 0;
+  margin: 18px 0 25px;
+}
+.big-card-mr {
+  margin-right: 10px;
 }
 .capabilities-big-card {
-  padding: 32px 38px;
+  padding: 28px 36px;
   width: 484px;
   border: 4px solid #303031;
   border-radius: 16px;
   display: flex;
   flex-direction: column;
+  letter-spacing: 0.1em;
 }
 .big-card-title {
   font-family: $potta-one-font;
   font-weight: bold;
   font-size: 32px;
   line-height: 40px;
-  margin-bottom: 28px;
+  margin-bottom: 32px;
 }
 .big-card-person {
   display: flex;
   align-items: center;
 }
 .big-card-person:not(:last-child) {
-  margin-bottom: 22px;
+  margin-bottom: 24px;
 }
 .card-person-image-big {
   width: 72px;
+  height: 72px;
+  min-width: 72px;
   border-radius: 50%;
   overflow: hidden;
 }
@@ -54,13 +65,287 @@
   margin-left: 16px;
   .person-name {
     font-weight: 600;
-    font-size: 24px;
+    font-size: 30px;
     line-height: 26px;
   }
   .person-shares {
     color: $gray-color;
     font-weight: 500;
-    font-size: 16px;
+    font-size: 19px;
     line-height: 26px;
+  }
+}
+.person-shares-mt {
+  margin-top: 10px;
+}
+.capabilities-item-card-second {
+  margin-left: 24px;
+  .card-person-image-big {
+    margin-bottom: auto;
+  }
+}
+.capabilities-item-content-second {
+  margin-left: auto;
+  margin-top: 38px;
+}
+.capabilities-item-content-therd {
+  margin-top: 82px;
+}
+.about-person {
+  color: $black-color;
+  margin-bottom: 24px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.16em;
+}
+.person-achievements {
+  display: flex;
+}
+.achievement-item {
+  display: flex;
+  flex-direction: column;
+}
+.achievement-item:last-child {
+  margin-left: 79px;
+}
+.achievement-title {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: $gray-color;
+  margin-bottom: 7px;
+  letter-spacing: -0.1em;
+}
+.achievement-description {
+  font-family: $potta-one-font;
+  font-weight: 500;
+  font-size: 27px;
+  color: $black-color;
+}
+.big-card-button {
+  margin-top: 31px;
+  width: 100%;
+  height: 56px;
+  background: $black-color;
+  border-radius: 16px;
+  color: #fff;
+  font-weight: 500;
+  font-size: 24px;
+  letter-spacing: 0.12em;
+}
+.capabilities-item-card-grope {
+  margin-left: 49px;
+  max-width: 634px;
+  display: flex;
+  flex-direction: column;
+}
+.card-write {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  width: 560px;
+  border: 4px solid #303031;
+  box-sizing: border-box;
+  border-radius: 16px;
+  padding: 24px 20px 20px;
+  margin-left: 37px;
+}
+.card-write-title {
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 24px;
+  color: $black-color;
+  margin-bottom: 16px;
+  letter-spacing: 0.06em;
+}
+.card-write-description {
+  max-width: 404px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.16em;
+}
+.card-write-button {
+  position: absolute;
+  right: 20px;
+  top: 20px;
+  letter-spacing: 0.1em;
+}
+.card-group-small {
+  display: flex;
+  margin-top: 24px;
+}
+.card-applicants {
+  font-family: $potta-one-font;
+  width: 381px;
+  background-color: $light-gold-color;
+  padding: 28px 36px;
+  border: 4px solid #303031;
+  border-radius: 16px;
+}
+.card-applicants-title {
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 32px;
+  letter-spacing: 0.15em;
+}
+.card-applicants-person {
+  display: flex;
+  align-items: center;
+  margin-top: 24px;
+}
+.card-applicants-person-image {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  overflow: hidden;
+  img {
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+  }
+}
+.applicants-person-name {
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 24px;
+  letter-spacing: 0.05em;
+  margin-left: 16px;
+}
+.rating-wrapper {
+  margin-left: auto;
+}
+.star-quantity {
+  font-weight: 500;
+  font-size: 21px;
+  line-height: 24px;
+  letter-spacing: 0.1em;
+  margin-left: 9px;
+}
+.card-applicant {
+  position: relative;
+  top: 24px;
+  display: flex;
+  flex-direction: column;
+  width: 240px;
+  border: 4px solid #71a894;
+  border-radius: 16px;
+  padding: 20px;
+  margin-left: 12px;
+  .card-person-image-big {
+    margin: 0 auto;
+  }
+  .person-name {
+    margin: 16px auto 4px;
+    font-weight: bold;
+    font-size: 21px;
+    line-height: 24px;
+    letter-spacing: 0.1em;
+  }
+  .person-shares {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: $gray-color;
+    margin: 0 auto;
+  }
+  .commits-wrapper {
+    margin: 16px 0;
+  }
+  .commits-wrapper {
+    display: flex;
+    align-items: center;
+  }
+  .commits {
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.02em;
+  }
+  .star-quantity {
+    font-weight: 500;
+    font-size: 21px;
+    line-height: 24px;
+    letter-spacing: 0.1em;
+    margin-left: 9px;
+  }
+}
+.rating-star {
+  transform: translateY(10%);
+}
+.card-applicant-button {
+  align-items: center;
+  padding: 12px 24px;
+  height: 44px;
+  color: $white-color;
+  background-color: $black-color;
+  border-radius: 16px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0.15em;
+}
+
+@media screen and (max-width: 1200px) {
+  .capabilities-big-card {
+    width: 360px;
+  }
+  .capabilities-item-card-grope {
+    max-width: 460px;
+    .card-write {
+      max-width: 400px;
+    }
+  }
+  .card-applicant-button {
+    font-size: 14px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .capabilities {
+    padding-top: 50px;
+  }
+  .capabilities-item {
+    flex-direction: column;
+    margin-bottom: 50px;
+  }
+  .capabilities-item-revers {
+    flex-direction: column-reverse;
+  }
+  .capabilities-item-content {
+    width: 100%;
+  }
+  .capabilities-item-card {
+    margin: 0;
+    width: 100%;
+  }
+  .capabilities-big-card {
+    width: 100%;
+  }
+  .capabilities-item-card-second {
+    margin: 0;
+  }
+  .capabilities-item-card-grope {
+    max-width: 100%;
+    margin: 0;
+  }
+  .card-write,
+  .card-write-description,
+  .card-applicants,
+  .card-applicant {
+    min-width: 100%;
+    margin: 0;
+    width: auto;
+  }
+
+  .card-group-small {
+    flex-direction: column;
+  }
+  .card-applicants {
+    min-width: 100%;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .card-write-title {
+    max-width: 200px;
   }
 }

@@ -57,3 +57,11 @@ h2 {
   color: $black-color;
   letter-spacing: -0.025em;
 }
+.green-btn-small {
+  align-items: center;
+  padding: 4px 8px;
+  height: 32px;
+  background-color: $green-color;
+  color: $white-color;
+  border-radius: 40px;
+}
