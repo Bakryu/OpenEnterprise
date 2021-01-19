@@ -101,7 +101,6 @@
   .menu-burger {
     display: none;
   }
- 
 }
 @media screen and (min-width: 425px) {
   .hero-content__wrapper {
@@ -174,7 +173,7 @@
   color: $gray-color;
   font-size: 24px;
   line-height: 32px;
-  letter-spacing: -0.023em;
+  letter-spacing: 0.02em;
   margin: 25px 0 41px;
 }
 
@@ -188,4 +187,5 @@
   font-size: 17px;
   line-height: 24px;
   font-family: $futura-round-font;
+  letter-spacing: 0.07em;
 }

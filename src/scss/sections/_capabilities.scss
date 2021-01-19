@@ -65,7 +65,7 @@
   margin-left: 16px;
   .person-name {
     font-weight: 600;
-    font-size: 30px;
+    font-size: 29px;
     line-height: 26px;
   }
   .person-shares {
@@ -77,6 +77,18 @@
 }
 .person-shares-mt {
   margin-top: 10px;
+}
+.capabilities-item-card-first {
+  letter-spacing: -0.03em;
+  .big-card-person {
+    align-items: flex-start;
+    .person-name {
+      margin-top: 6px;
+    }
+    .person-shares {
+      line-height: 38px;
+    }
+  }
 }
 .capabilities-item-card-second {
   margin-left: 24px;
@@ -249,6 +261,7 @@
     line-height: 24px;
     color: $gray-color;
     margin: 0 auto;
+    letter-spacing: 0.1em;
   }
   .commits-wrapper {
     margin: 16px 0;
@@ -260,7 +273,7 @@
   .commits {
     font-size: 16px;
     line-height: 24px;
-    letter-spacing: -0.02em;
+    letter-spacing: 0.1em;
   }
   .star-quantity {
     font-weight: 500;
@@ -290,14 +303,26 @@
   .capabilities-big-card {
     width: 360px;
   }
+  .capabilities-item-card {
+    padding-right: 10px;
+  }
   .capabilities-item-card-grope {
-    max-width: 460px;
+    max-width: 561px;
+    padding-right: 10px;
     .card-write {
-      max-width: 400px;
+      max-width: 500px;
     }
   }
   .card-applicant-button {
     font-size: 14px;
+  }
+}
+@media screen and (max-width: 992px) {
+  .capabilities-item-card-grope {
+    margin-left: 20px;
+  }
+  .card-applicants {
+    padding: 20px;
   }
 }
 @media screen and (max-width: 768px) {

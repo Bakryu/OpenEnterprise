@@ -1,0 +1,86 @@
+.help-us {
+  padding-top: 23px;
+}
+.help-us-card-wrapper {
+  display: flex;
+  margin: 0 10px;
+}
+.help-us-card {
+  position: relative;
+  font-family: $futura-round-font;
+  display: flex;
+  flex-direction: column;
+  width: 427px;
+  background: $white-color;
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 16px;
+  padding: 24px;
+  margin-bottom: auto;
+}
+.help-us-card:not(:last-child) {
+  margin-right: 24px;
+}
+.help-us-card-title {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 24px;
+  letter-spacing: 0.17em;
+}
+.help-us-card-description {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.17em;
+  margin: 16px 0 28px;
+}
+.date-group {
+  display: flex;
+  justify-content: end;
+  width: 100%;
+}
+.help-us-card-button {
+  position: absolute;
+  left: 24px;
+  bottom: 19px;
+  letter-spacing: 0.15em;
+}
+.help-us-card-date {
+  margin-left: auto;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.1em;
+}
+.help-us-button-wrapper {
+  width: 100%;
+  padding: 0 10px;
+}
+.help-us-button {
+  display: block;
+  margin: 53px auto 0;
+  align-items: center;
+  padding: 20px 24px;
+  width: 136px;
+  height: 64px;
+  background-color: $black-color;
+  color: $white-color;
+  border-radius: 8px;
+  font-weight: bold;
+  font-size: 17px;
+}
+
+@media screen and (max-width: 768px) {
+  .help-us-card-wrapper {
+    flex-direction: column;
+  }
+  .help-us-card {
+    width: 100%;
+  }
+  .help-us-card:not(:last-child) {
+    margin-bottom: 20px;
+  }
+  .help-us-button {
+    width: 100%;
+    margin: 20px 0 0;
+  }
+}
