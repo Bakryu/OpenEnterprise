@@ -39,6 +39,9 @@ h2 {
   .section__wrapper {
     padding: 0 calc(50%-360px);
   }
+  .green-btn-big{
+    width: 100% !important;
+  }
 }
 @media screen and (max-width: 425px) {
   h1,
@@ -64,4 +67,16 @@ h2 {
   background-color: $green-color;
   color: $white-color;
   border-radius: 40px;
+}
+.green-btn-big{
+  width: 219px;
+  height: 64px;
+  border-radius: 8px;
+  background-color: $green-color;
+  color: #fff;
+  font-weight: bold;
+  font-size: 17px;
+  line-height: 24px;
+  font-family: $futura-round-font;
+  letter-spacing: 0.07em;
 }

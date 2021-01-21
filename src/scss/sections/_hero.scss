@@ -1,14 +1,14 @@
 .hero {
   position: relative;
 }
-.header {
+.nav {
   display: flex;
   justify-content: space-between;
   padding: 40px 10px 0;
 }
 
 .header-logo__wrapper,
-.header-items__wrapper {
+.nav-items__wrapper {
   display: flex;
   align-items: center;
 }
@@ -71,7 +71,7 @@
   .hero-image__wrapper {
     max-width: 100%;
   }
-  .header-items__wrapper {
+  .nav-items__wrapper {
     position: absolute;
     display: flex;
     flex-direction: column;
@@ -178,14 +178,5 @@
 }
 
 .hero-content__button {
-  width: 219px;
-  height: 64px;
-  border-radius: 8px;
-  background-color: $green-color;
-  color: #fff;
-  font-weight: bold;
-  font-size: 17px;
-  line-height: 24px;
-  font-family: $futura-round-font;
-  letter-spacing: 0.07em;
+  
 }
