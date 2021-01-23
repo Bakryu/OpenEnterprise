@@ -28,9 +28,14 @@
   align-items: center;
   background-color: $white-color;
   border-radius: 8px;
-}
-.features-card:not(:last-child) {
-  margin-right: 24px;
+  transition: all 0.5s ease-out;
+  &:not(:last-child) {
+    margin-right: 24px;
+  }
+  &:hover {
+    transform: scale(1.05);
+    box-shadow: 2px 22px 8px -8px rgba(34, 60, 80, 0.2);
+  }
 }
 
 .features-card-title {
