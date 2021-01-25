@@ -37,6 +37,11 @@
   display: flex;
   flex-direction: column;
   letter-spacing: 0.1em;
+  transition: all 0.5s ease-out;
+  &:hover {
+    transform: scale(1.05);
+    box-shadow: 2px 22px 8px -8px rgba($green-color, 0.99);
+  }
 }
 .big-card-title {
   font-family: $potta-one-font;
@@ -162,6 +167,11 @@
   border-radius: 16px;
   padding: 24px 20px 20px;
   margin-left: 37px;
+  transition: all 0.5s ease-out;
+  &:hover {
+    transform: scale(1.05);
+    box-shadow: 2px 22px 8px -8px rgba($green-color, 0.99);
+  }
 }
 .card-write-title {
   font-weight: bold;
@@ -195,6 +205,11 @@
   padding: 28px 36px;
   border: 4px solid #303031;
   border-radius: 16px;
+  transition: all 0.5s ease-out;
+  &:hover {
+    transform: scale(1.05);
+    box-shadow: 2px 22px 8px -8px rgba($green-color, 0.99);
+  }
 }
 .card-applicants-title {
   font-weight: bold;
@@ -245,6 +260,11 @@
   border-radius: 16px;
   padding: 20px;
   margin-left: 12px;
+  transition: all 0.5s ease-out;
+  &:hover {
+    transform: scale(1.05);
+    box-shadow: 2px 22px 8px -8px rgba($green-color, 0.99);
+  }
   .card-person-image-big {
     margin: 0 auto;
   }

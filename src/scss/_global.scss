@@ -39,8 +39,11 @@ h2 {
   .section__wrapper {
     padding: 0 calc(50%-360px);
   }
-  .green-btn-big{
+  .green-btn-big {
     width: 100% !important;
+  }
+  .span-style-1 {
+    margin-bottom: 10px;
   }
 }
 @media screen and (max-width: 425px) {
@@ -68,7 +71,7 @@ h2 {
   color: $white-color;
   border-radius: 40px;
 }
-.green-btn-big{
+.green-btn-big {
   width: 219px;
   height: 64px;
   border-radius: 8px;
@@ -79,4 +82,11 @@ h2 {
   line-height: 24px;
   font-family: $futura-round-font;
   letter-spacing: 0.07em;
+}
+button {
+  transition: all 0.5s ease-out;
+  &:hover {
+    transform: scale(1.05);
+    box-shadow: 2px 22px 8px -8px rgba(34, 60, 80, 0.2);
+  }
 }
