@@ -6,6 +6,15 @@
   justify-content: space-between;
   padding: 40px 10px 0;
 }
+.nav-top {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 3;
+  background-color: #fff;
+  width: 100%;
+  padding: 41px 56px;
+}
 
 .header-logo__wrapper,
 .nav-items__wrapper {
@@ -46,6 +55,7 @@
 
 .hero-body {
   margin: 0 10px;
+  padding-top: 81px;
 }
 @media screen and (min-width: 1200px) {
   .hero-content__wrapper {

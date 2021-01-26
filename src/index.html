@@ -19,17 +19,37 @@
     <title>Document</title>
   </head>
   <body>
-    <section class="hero section__wrapper">
-      <nav class="nav">
-        <div class="header-logo__wrapper">
+    <section id="hero" class="hero section__wrapper">
+      <nav class="nav nav-top">
+        <div id="button-hero" class="header-logo__wrapper">
           <img src="./images/Logo.png" alt="logo" class="header-logo__image" />
-          <a href="#" class="header-logo__label">Open Enterprise</a>
+          <a href="#hero" class="header-logo__label">Open Enterprise</a>
         </div>
         <div class="nav-items__wrapper">
-          <a href="#" class="header-item header-item-mobile">Why Open Enterprise</a>
-          <a href="#" class="header-item header-item-mobile">Features</a>
-          <a href="#" class="header-item header-item-mobile">Contribute</a>
-          <a href="#" class="header-item header-item-mobile">Request early access</a>
+          <a
+            id="button-features"
+            href="#features"
+            class="header-item header-item-mobile"
+            >Why Open Enterprise</a
+          >
+          <a
+            id="button-capabilities"
+            href="#capabilities"
+            class="header-item header-item-mobile"
+            >Features</a
+          >
+          <a
+            id="button-help-us"
+            href="#help-us"
+            class="header-item header-item-mobile"
+            >Contribute</a
+          >
+          <a
+            id="button-start_enterprise"
+            href="#start_enterprise"
+            class="header-item header-item-mobile"
+            >Request early access</a
+          >
         </div>
         <div class="menu-burger">
           <span class="burger-element-1"></span>
@@ -55,7 +75,7 @@
         </div>
       </div>
     </section>
-    <section class="features section__wrapper">
+    <section id="features" class="features section__wrapper">
       <h2 class="features-title">Reimagining what it means to work</h2>
       <span class="features-description span-style-1">
         Teams and communities using Open Enterprise fundamentally unlock a
@@ -95,7 +115,7 @@
         </div>
       </div>
     </section>
-    <section class="capabilities section__wrapper">
+    <section id="capabilities" class="capabilities section__wrapper">
       <div class="capabilities-item">
         <div class="capabilities-item-content">
           <div class="capabilities-content-image">
@@ -206,7 +226,7 @@
           </span>
         </div>
       </div>
-      <div class="capabilities-item">
+      <div class="capabilities-item capabilities-item-therd">
         <div class="capabilities-item-content capabilities-item-content-therd">
           <div class="capabilities-content-image">
             <img src="./images/capabilities-card-image-3.png" alt="circle" />
@@ -289,9 +309,9 @@
         </div>
       </div>
     </section>
-    <section class="help-us section__wrapper">
+    <section id="help-us" class="help-us section__wrapper">
       <h2>Help us improve Open Enterprise</h2>
-      <span class="features-description span-style-1">
+      <span class="features-description span-style-1 help-us-description">
         As an Open Enterprise ourselves, we are actively looking for new talent
         to join our mission of improving and delivering the Open Enterprise
         model to the world. Apply for open tasks and earn a stake in our
@@ -340,7 +360,7 @@
         <button class="help-us-button">View more</button>
       </div>
     </section>
-    <section class="start_enterprise section__wrapper">
+    <section id="start_enterprise" class="start_enterprise section__wrapper">
       <div class="start_enterprise-dot-line">
         <img
           class="footer-dot-line"
